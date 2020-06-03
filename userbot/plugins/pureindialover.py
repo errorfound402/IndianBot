@@ -11,7 +11,7 @@ import asyncio
 from userbot.utils import admin_cmd
 
 
-@borg.on(admin_cmd("pureindialover"))
+@borg.on(admin_cmd("LeaderMasked"))
 async def _(event):
     if event.fwd_from:
         return
@@ -19,15 +19,15 @@ async def _(event):
     animation_ttl = range(0,36)
     #input_str = event.pattern_match.group(1)
    # if input_str == "pureindialover":
-    await event.edit("@pureindialover")
+    await event.edit("@LeaderMasked")
     animation_chars = [
-            "@pureindialover tera baap",
-            "@pureindialover is bot ka creator",
-            "@pureindialover bot ko jaan dene wala",
-            "@pureindialover owner of @IndianArMyGiveaway ",
+            "@LeaderMasked tera baap",
+            "@LeaderMasked is bot ka creator",
+            "@LeaderMasked bot ko jaan dene wala",
+            "@LeaderMasked owner of LeaderCury ",
             "tujhe aur kya chaiye vo hai mere sath",
             "tera baap",
-            "@pureindialover"
+            "@LeaderMasked"
          ]
             
 
